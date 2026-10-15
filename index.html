@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - Fé Survivor</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <title>Termos de Serviço e Política de Privacidade - Fé Survivor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+        rel="stylesheet">
     <style>
         :root {
             --primary-color: #2563eb;
@@ -46,17 +49,21 @@
         h2 {
             font-size: 1.5rem;
             color: #1f2937;
-            margin-top: 30px;
+            margin-top: 35px;
             margin-bottom: 15px;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 8px;
         }
 
         h3 {
             font-size: 1.15rem;
             color: #374151;
             margin-top: 20px;
+            margin-bottom: 10px;
         }
 
-        p, li {
+        p,
+        li {
             font-size: 1rem;
             color: #4b5563;
         }
@@ -92,147 +99,347 @@
             margin-top: 20px;
         }
 
-
         .language-switcher {
-            position: fixed; top: 16px; right: 18px; z-index: 1000;
+            position: fixed;
+            top: 16px;
+            right: 18px;
+            z-index: 1000;
         }
+
         .language-select {
-            appearance: none; -webkit-appearance: none;
-            border: 1px solid var(--border-color); border-radius: 10px;
-            background: #fff; color: #1f2937; padding: 11px 38px 11px 12px;
-            font: 600 14px "DM Sans", sans-serif; cursor: pointer;
-            box-shadow: 0 4px 12px rgba(0,0,0,.10);
+            appearance: none;
+            -webkit-appearance: none;
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            background: #fff;
+            color: #1f2937;
+            padding: 11px 38px 11px 12px;
+            font: 600 14px "DM Sans", sans-serif;
+            cursor: pointer;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, .10);
         }
+
         .language-switcher::after {
-            content: "▾"; position: absolute; right: 13px; top: 9px;
-            pointer-events: none; color: #4b5563;
+            content: "▾";
+            position: absolute;
+            right: 13px;
+            top: 9px;
+            pointer-events: none;
+            color: #4b5563;
         }
+
         @media (max-width: 640px) {
-            .language-switcher { top: 10px; right: 10px; }
-            .language-select { padding: 9px 32px 9px 10px; font-size: 13px; }
-            body { padding-top: 62px; }
-        }
-        @media (max-width: 640px) {
+            .language-switcher {
+                top: 10px;
+                right: 10px;
+            }
+
+            .language-select {
+                padding: 9px 32px 9px 10px;
+                font-size: 13px;
+            }
+
             body {
                 padding: 15px;
+                padding-top: 62px;
             }
+
             .container {
                 padding: 20px;
             }
+
             h1 {
                 font-size: 1.75rem;
             }
-
-
-.dm-sans-<uniquifier> {
-  font-family: "DM Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
         }
     </style>
 </head>
+
 <body>
     <div class="language-switcher">
-        <label for="languageSelect" class="sr-only" style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0">Idioma / Language</label>
+        <label for="languageSelect" class="sr-only"
+            style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0">Idioma
+            / Language</label>
         <select id="languageSelect" class="language-select" aria-label="Select language">
             <option value="pt-BR">🇧🇷 Português (Brasil)</option>
             <option value="en-US">🇺🇸 English (US)</option>
         </select>
     </div>
+
     <main class="container">
-        <h1 data-i18n="title">Política de Privacidade</h1>
-        <div class="date"><span data-i18n="updated">Última atualização:</span> <time datetime="2026-10-07">07 de outubro de 2026</time></div>
-        <p data-i18n="intro">Esta Política de Privacidade descreve como <strong>Jean Moraes</strong> ("nós", "nosso") coleta, usa e compartilha informações ao utilizar o aplicativo/jogo <strong>Fé Survivor</strong> (doravante denominado "Aplicativo").</p>
-        <p data-i18n="consent">Ao baixar, instalar ou utilizar este Aplicativo, você concorda com a coleta e o uso de informações de acordo com esta Política de Privacidade.</p>
-        <h2 data-i18n="s1">1. Coleta e Uso de Informações</h2>
-        <h3 data-i18n="s1a">a) Dados Pessoais Coletados Diretamente</h3>
-        <p data-i18n="direct">O <strong>Fé Survivor</strong> foi desenvolvido para respeitar a privacidade dos seus usuários. Não solicitamos nem coletamos dados pessoais identificáveis (como nome real, endereço físico, número de telefone ou endereço de e-mail) para o funcionamento básico do jogo.</p>
-        <h3 data-i18n="s1b">b) Dados Coletados Automatizada e Tecnicamente</h3>
-        <p data-i18n="technical">Para garantir o funcionamento adequado do jogo, a melhoria contínua da experiência do usuário e/ou a exibição de anúncios e métricas de desempenho, o Aplicativo pode utilizar serviços de terceiros que coletam informações técnicas do seu dispositivo, como:</p>
+        <!-- TÍTULO PRINCIPAL E DATA -->
+        <h1 data-i18n="main_title">Termos de Serviço e Política de Privacidade</h1>
+        <div class="date"><span data-i18n="updated">Última atualização:</span> <time datetime="2026-10-15">15 de outubro
+                de 2026</time></div>
+
+        <!-- SEÇÃO: TERMOS DE SERVIÇO -->
+        <h2 data-i18n="tos_title">Parte 1 — Termos de Serviço</h2>
+
+        <h3 data-i18n="tos_s1_title">1. Aceitação dos Termos</h3>
+        <p data-i18n="tos_s1_text">Ao transferir, instalar ou utilizar o jogo <strong>Fé Survivor</strong> (doravante
+            denominado "Aplicativo" ou "Jogo"), desenvolvido por <strong>Jean Moraes</strong> ("nós", "nosso"), concorda
+            em cumprir e vincular-se aos presentes Termos de Serviço. Se não concordar com estes termos, não deverá
+            utilizar o Aplicativo.</p>
+
+        <h3 data-i18n="tos_s2_title">2. Licença de Uso</h3>
+        <p data-i18n="tos_s2_text">Concedemos-lhe uma licença limitada, pessoal, não exclusiva, intransferível e
+            revogável para descarregar e utilizar o Aplicativo para fins de entretenimento pessoal e não comercial no
+            seu dispositivo móvel compatível.</p>
+
+        <h3 data-i18n="tos_s3_title">3. Propriedade Intelectual</h3>
+        <p data-i18n="tos_s3_text">Todos os direitos de propriedade intelectual relativos ao Jogo — incluindo
+            códigos-fonte, gráficos em arte pixel (16-bit), design de interface, mecânicas de jogo, faixas de áudio,
+            textos, marcas e elementos visuais — são de propriedade exclusiva de Jean Moraes ou devidamente licenciados.
+            É expressamente proibida a cópia, modificação, distribuição, descompilação ou engenharia reversa do
+            Aplicativo sem autorização prévia por escrito.</p>
+
+        <h3 data-i18n="tos_s4_title">4. Conduta do Utilizador e Vantagens Indevidas</h3>
+        <p data-i18n="tos_s4_text">O utilizador compromete-se a utilizar o Jogo de forma justa e legítima. É proibida a
+            utilização de batotas (cheats), modificações não autorizadas (MODs), ferramentas de automatização ou
+            exploração de falhas (exploits) para alterar o progresso, moedas de jogo ou conquistas.</p>
+
+        <h3 data-i18n="tos_s5_title">5. Publicidade e Recompensas</h3>
+        <p data-i18n="tos_s5_text">O Jogo pode integrar anúncios publicitários (ex.: Google AdMob ou Unity Ads),
+            incluindo vídeos recompensados. Não nos responsabilizamos pelos conteúdos, produtos ou serviços promovidos
+            por redes de anúncios de terceiros.</p>
+
+        <h3 data-i18n="tos_s6_title">6. Isenção de Garantias e Limitação de Responsabilidade</h3>
+        <p data-i18n="tos_s6_text">O Aplicativo é fornecido "como está" e "conforme disponível", sem garantias de
+            qualquer tipo. Não garantimos que o Jogo funcionará de forma ininterrupta ou livre de erros. Em nenhuma
+            circunstância o programador será responsável por danos diretos, indiretos ou acidentais decorrentes do uso
+            ou da impossibilidade de uso do Aplicativo.</p>
+
+        <!-- SEÇÃO: POLÍTICA DE PRIVACIDADE -->
+        <h2 data-i18n="pp_title">Parte 2 — Política de Privacidade</h2>
+
+        <p data-i18n="pp_intro">Esta Política de Privacidade descreve como <strong>Jean Moraes</strong> coleta, usa e
+            compartilha informações ao utilizar o aplicativo/jogo <strong>Fé Survivor</strong>.</p>
+        <p data-i18n="pp_consent">Ao baixar, instalar ou utilizar este Aplicativo, você concorda com a coleta e o uso de
+            informações de acordo com esta Política de Privacidade.</p>
+
+        <h3 data-i18n="pp_s1_title">1. Coleta e Uso de Informações</h3>
+        <h3 data-i18n="pp_s1a_title">a) Dados Pessoais Coletados Diretamente</h3>
+        <p data-i18n="pp_direct">O <strong>Fé Survivor</strong> foi desenvolvido para respeitar a privacidade dos seus
+            usuários. Não solicitamos nem coletamos dados pessoais identificáveis (como nome real, endereço físico,
+            número de telefone ou endereço de e-mail) para o funcionamento básico do jogo.</p>
+
+        <h3 data-i18n="pp_s1b_title">b) Dados Coletados Automatizada e Tecnicamente</h3>
+        <p data-i18n="pp_technical">Para garantir o funcionamento adequado do jogo, a melhoria contínua da experiência
+            do usuário e/ou a exibição de anúncios e métricas de desempenho, o Aplicativo pode utilizar serviços de
+            terceiros que coletam informações técnicas do seu dispositivo, como:</p>
         <ul>
-            <li data-i18n="data1">Identificadores exclusivos de dispositivo (ex.: ID de publicidade do Google / AAID);</li>
-            <li data-i18n="data2">Endereço IP;</li>
-            <li data-i18n="data3">Dados do sistema operacional e modelo do dispositivo;</li>
-            <li data-i18n="data4">Dados de desempenho do jogo, registros de erros (<em>crash logs</em>) e dados estatísticos de uso.</li>
+            <li data-i18n="pp_data1">Identificadores exclusivos de dispositivo (ex.: ID de publicidade do Google /
+                AAID);</li>
+            <li data-i18n="pp_data2">Endereço IP;</li>
+            <li data-i18n="pp_data3">Dados do sistema operacional e modelo do dispositivo;</li>
+            <li data-i18n="pp_data4">Dados de desempenho do jogo, registros de erros (<em>crash logs</em>) e dados
+                estatísticos de uso.</li>
         </ul>
-        <h2 data-i18n="s2">2. Serviços de Terceiros e Provedores de Serviços</h2>
-        <p data-i18n="thirdParty">Nosso Aplicativo pode integrar bibliotecas de ferramentas de terceiros (SDKs). Esses serviços podem coletar informações usadas para identificar o seu dispositivo de acordo com suas próprias políticas de privacidade.</p>
-        <p data-i18n="services">Serviços de terceiros que podem ser utilizados no Aplicativo incluem:</p>
+
+        <h3 data-i18n="pp_s2_title">2. Serviços de Terceiros e Provedores de Serviços</h3>
+        <p data-i18n="pp_thirdParty">Nosso Aplicativo pode integrar bibliotecas de ferramentas de terceiros (SDKs).
+            Esses serviços podem coletar informações usadas para identificar o seu dispositivo de acordo com suas
+            próprias políticas de privacidade.</p>
+        <p data-i18n="pp_services">Serviços de terceiros que podem ser utilizados no Aplicativo incluem:</p>
         <ul>
-            <li><strong>Google Play Services:</strong> <span data-i18n="googlePlay">Para suporte a recursos da plataforma e login/conquistas.</span> (<a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" data-i18n="googlePrivacy">Política de Privacidade do Google</a>)</li>
-            <li><strong>Google AdMob / Unity Ads:</strong> <span data-i18n="ads">Para exibição de anúncios no jogo.</span> (<a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" data-i18n="googlePolicy">Política do Google</a> / <a href="https://unity.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer" data-i18n="unityPolicy">Política da Unity</a>)</li>
-            <li><strong>Unity Analytics / Google Analytics for Firebase:</strong> <span data-i18n="analytics">Para análise anônima de estatísticas de uso e desempenho.</span></li>
+            <li><strong>Google Play Services:</strong> <span data-i18n="pp_googlePlay">Para suporte a recursos da
+                    plataforma e login/conquistas.</span> (<a href="https://policies.google.com/privacy" target="_blank"
+                    rel="noopener noreferrer" data-i18n="pp_googlePrivacy">Política de Privacidade do Google</a>)</li>
+            <li><strong>Google AdMob / Unity Ads:</strong> <span data-i18n="pp_ads">Para exibição de anúncios no
+                    jogo.</span> (<a href="https://policies.google.com/privacy" target="_blank"
+                    rel="noopener noreferrer" data-i18n="pp_googlePolicy">Política do Google</a> / <a
+                    href="https://unity.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer"
+                    data-i18n="pp_unityPolicy">Política da Unity</a>)</li>
+            <li><strong>Unity Analytics / Google Analytics for Firebase:</strong> <span data-i18n="pp_analytics">Para
+                    análise anônima de estatísticas de uso e desempenho.</span></li>
         </ul>
-        <h2 data-i18n="s3">3. Compartilhamento de Dados</h2>
-        <p data-i18n="sharing">Não vendemos, alugamos nem transferimos dados pessoais de usuários a terceiros. As informações técnicas coletadas automaticamente só são compartilhadas com os provedores de serviços descritos acima para fins estritos de funcionamento, veiculação de anúncios, prevenção de fraudes e análise de estatísticas do Aplicativo.</p>
-        <p data-i18n="legal">Também podemos divulgar informações se exigido por lei ou em resposta a solicitações legais válidas por autoridades públicas.</p>
-        <h2 data-i18n="s4">4. Privacidade de Crianças e Menores de Idade</h2>
-        <p data-i18n="children">Nosso Aplicativo cumpre as exigências da política de dados do Google Play para famílias e crianças. Não solicitamos nem coletamos sabidamente dados pessoais de crianças. Se você é pai, mãe ou responsável legal e tomar conhecimento de que seu filho nos forneceu informações sem o seu consentimento, entre em contato conosco para que possamos adotar as medidas necessárias para remover tais informações.</p>
-        <h2 data-i18n="s5">5. Segurança das Informações</h2>
-        <p data-i18n="security">A segurança dos seus dados é importante para nós. Empregamos medidas administrativas e técnicas padrão da indústria para proteger as informações processadas por nossos serviços contra acesso não autorizado, alteração, divulgação ou destruição.</p>
-        <h2 data-i18n="s6">6. Alterações a Esta Política de Privacidade</h2>
-        <p data-i18n="changes">Podemos atualizar nossa Política de Privacidade periodicamente. Aconselhamos que você revise esta página regularmente para verificar quaisquer alterações. As alterações nesta Política de Privacidade entram em vigor no momento em que são publicadas nesta página.</p>
-        <h2 data-i18n="s7">7. Contato</h2>
-        <p data-i18n="contactIntro">Se você tiver dúvidas, sugestões ou solicitações referentes a esta Política de Privacidade ou ao tratamento de dados no Aplicativo, entre em contato conosco:</p>
+
+        <h3 data-i18n="pp_s3_title">3. Compartilhamento de Dados</h3>
+        <p data-i18n="pp_sharing">Não vendemos, alugamos nem transferimos dados pessoais de usuários a terceiros. As
+            informações técnicas coletadas automaticamente só são compartilhadas com os provedores de serviços descritos
+            acima para fins estritos de funcionamento, veiculação de anúncios, prevenção de fraudes e análise de
+            estatísticas do Aplicativo.</p>
+        <p data-i18n="pp_legal">Também podemos divulgar informações se exigido por lei ou em resposta a solicitações
+            legais válidas por autoridades públicas.</p>
+
+        <h3 data-i18n="pp_s4_title">4. Privacidade de Crianças e Menores de Idade</h3>
+        <p data-i18n="pp_children">Nosso Aplicativo cumpre as exigências da política de dados do Google Play para
+            famílias e crianças. Não solicitamos nem coletamos sabidamente dados pessoais de crianças. Se você é pai,
+            mãe ou responsável legal e tomar conhecimento de que seu filho nos forneceu informações sem o seu
+            consentimento, entre em contato conosco para que possamos adotar as medidas necessárias para remover tais
+            informações.</p>
+
+        <h3 data-i18n="pp_s5_title">5. Segurança das Informações</h3>
+        <p data-i18n="pp_security">A segurança dos seus dados é importante para nós. Empregamos medidas administrativas
+            e técnicas padrão da indústria para proteger as informações processadas por nossos serviços contra acesso
+            não autorizado, alteração, divulgação ou destruição.</p>
+
+        <h3 data-i18n="pp_s6_title">6. Alterações a Estes Termos e Política</h3>
+        <p data-i18n="pp_changes">Podemos atualizar nossos Termos de Serviço e Política de Privacidade periodicamente.
+            Aconselhamos que você revise esta página regularmente para verificar quaisquer alterações. As alterações
+            entram em vigor no momento em que são publicadas nesta página.</p>
+
+        <!-- CONTATO -->
+        <h2 data-i18n="contact_title">Contato</h2>
+        <p data-i18n="contact_intro">Se você tiver dúvidas, sugestões ou solicitações referentes aos Termos de Serviço,
+            à Política de Privacidade ou ao tratamento de dados no Aplicativo, entre em contato conosco:</p>
         <div class="contact-box">
             <p><strong data-i18n="developer">Desenvolvedor:</strong> Jean Moraes</p>
-            <p><strong data-i18n="support">E-mail de Suporte:</strong> <a href="mailto:anjeoidualc@gmail.com">anjeoidualc@gmail.com</a></p>
+            <p><strong data-i18n="support">E-mail de Suporte:</strong> <a
+                    href="mailto:anjeoidualc@gmail.com">anjeoidualc@gmail.com</a></p>
         </div>
     </main>
-<script>
-const translations = {
- "pt-BR": {
- title:"Política de Privacidade", updated:"Última atualização:",
- intro:'Esta Política de Privacidade descreve como <strong>Jean Moraes</strong> ("nós", "nosso") coleta, usa e compartilha informações ao utilizar o aplicativo/jogo <strong>Fé Survivor</strong> (doravante denominado "Aplicativo").',
- consent:"Ao baixar, instalar ou utilizar este Aplicativo, você concorda com a coleta e o uso de informações de acordo com esta Política de Privacidade.",
- s1:"1. Coleta e Uso de Informações", s1a:"a) Dados Pessoais Coletados Diretamente",
- direct:'O <strong>Fé Survivor</strong> foi desenvolvido para respeitar a privacidade dos seus usuários. Não solicitamos nem coletamos dados pessoais identificáveis (como nome real, endereço físico, número de telefone ou endereço de e-mail) para o funcionamento básico do jogo.',
- s1b:"b) Dados Coletados Automatizada e Tecnicamente",
- technical:"Para garantir o funcionamento adequado do jogo, a melhoria contínua da experiência do usuário e/ou a exibição de anúncios e métricas de desempenho, o Aplicativo pode utilizar serviços de terceiros que coletam informações técnicas do seu dispositivo, como:",
- data1:"Identificadores exclusivos de dispositivo (ex.: ID de publicidade do Google / AAID);", data2:"Endereço IP;", data3:"Dados do sistema operacional e modelo do dispositivo;", data4:"Dados de desempenho do jogo, registros de erros (<em>crash logs</em>) e dados estatísticos de uso.",
- s2:"2. Serviços de Terceiros e Provedores de Serviços", thirdParty:"Nosso Aplicativo pode integrar bibliotecas de ferramentas de terceiros (SDKs). Esses serviços podem coletar informações usadas para identificar o seu dispositivo de acordo com suas próprias políticas de privacidade.", services:"Serviços de terceiros que podem ser utilizados no Aplicativo incluem:", googlePlay:"Para suporte a recursos da plataforma e login/conquistas.", googlePrivacy:"Política de Privacidade do Google", ads:"Para exibição de anúncios no jogo.", googlePolicy:"Política do Google", unityPolicy:"Política da Unity", analytics:"Para análise anônima de estatísticas de uso e desempenho.",
- s3:"3. Compartilhamento de Dados", sharing:"Não vendemos, alugamos nem transferimos dados pessoais de usuários a terceiros. As informações técnicas coletadas automaticamente só são compartilhadas com os provedores de serviços descritos acima para fins estritos de funcionamento, veiculação de anúncios, prevenção de fraudes e análise de estatísticas do Aplicativo.", legal:"Também podemos divulgar informações se exigido por lei ou em resposta a solicitações legais válidas por autoridades públicas.",
- s4:"4. Privacidade de Crianças e Menores de Idade", children:"Nosso Aplicativo cumpre as exigências da política de dados do Google Play para famílias e crianças. Não solicitamos nem coletamos sabidamente dados pessoais de crianças. Se você é pai, mãe ou responsável legal e tomar conhecimento de que seu filho nos forneceu informações sem o seu consentimento, entre em contato conosco para que possamos adotar as medidas necessárias para remover tais informações.",
- s5:"5. Segurança das Informações", security:"A segurança dos seus dados é importante para nós. Empregamos medidas administrativas e técnicas padrão da indústria para proteger as informações processadas por nossos serviços contra acesso não autorizado, alteração, divulgação ou destruição.",
- s6:"6. Alterações a Esta Política de Privacidade", changes:"Podemos atualizar nossa Política de Privacidade periodicamente. Aconselhamos que você revise esta página regularmente para verificar quaisquer alterações. As alterações nesta Política de Privacidade entram em vigor no momento em que são publicadas nesta página.",
- s7:"7. Contato", contactIntro:"Se você tiver dúvidas, sugestões ou solicitações referentes a esta Política de Privacidade ou ao tratamento de dados no Aplicativo, entre em contato conosco:", developer:"Desenvolvedor:", support:"E-mail de Suporte:"
- },
- "en-US": {
- title:"Privacy Policy", updated:"Last updated:",
- intro:'This Privacy Policy explains how <strong>Jean Moraes</strong> ("we," "us," or "our") collects, uses, and shares information when you use the <strong>Fé Survivor</strong> app/game (the "App").',
- consent:"By downloading, installing, or using the App, you agree to the collection and use of information in accordance with this Privacy Policy.",
- s1:"1. Information Collection and Use", s1a:"a) Personal Information You Provide Directly",
- direct:'<strong>Fé Survivor</strong> was developed with respect for users’ privacy. We do not request or collect personally identifiable information (such as your real name, physical address, phone number, or email address) for the game’s basic functionality.',
- s1b:"b) Automatically and Technically Collected Data",
- technical:"To ensure the game works properly, continuously improve the user experience, and/or display ads and measure performance, the App may use third-party services that collect technical information about your device, such as:",
- data1:"Unique device identifiers (e.g., Google Advertising ID / AAID);", data2:"IP address;", data3:"Operating system and device model information;", data4:"Game performance data, error reports (<em>crash logs</em>), and usage statistics.",
- s2:"2. Third-Party Services and Service Providers", thirdParty:"Our App may integrate third-party software development kits (SDKs). These services may collect information used to identify your device in accordance with their own privacy policies.", services:"Third-party services that may be used in the App include:",
- googlePlay:"To support platform features, sign-in, and achievements.", googlePrivacy:"Google Privacy Policy", ads:"To display ads in the game.", googlePolicy:"Google Privacy Policy", unityPolicy:"Unity Privacy Policy", analytics:"To analyze usage and performance statistics.",
- s3:"3. Data Sharing", sharing:"We do not sell, rent, or transfer users’ personal data to third parties. Automatically collected technical information is shared only with the service providers described above, and only as needed to operate the App, serve ads, prevent fraud, and analyze App usage statistics.", legal:"We may also disclose information when required by law or in response to valid legal requests from public authorities.",
- s4:"4. Children’s Privacy", children:"Our App follows Google Play’s applicable data policies for families and children. We do not knowingly request or collect children’s personal information. If you are a parent or legal guardian and become aware that your child has provided us with information without your consent, please contact us so we can take appropriate steps to remove that information.",
- s5:"5. Information Security", security:"Protecting your data is important to us. We use industry-standard administrative and technical safeguards to protect information processed by our services against unauthorized access, alteration, disclosure, or destruction.",
- s6:"6. Changes to This Privacy Policy", changes:"We may update this Privacy Policy from time to time. We encourage you to review this page periodically for changes. Updates to this Privacy Policy take effect when they are published on this page.",
- s7:"7. Contact Us", contactIntro:"If you have questions, suggestions, or requests regarding this Privacy Policy or the App’s data practices, please contact us:", developer:"Developer:", support:"Support email:"
- }
-};
-const languageSelect = document.getElementById("languageSelect");
-function setLanguage(lang) {
- const dict = translations[lang] || translations["pt-BR"];
- document.documentElement.lang = lang;
- document.title = lang === "en-US" ? "Privacy Policy - Fé Survivor" : "Política de Privacidade - Fé Survivor";
- document.querySelectorAll("[data-i18n]").forEach(el => {
-   const key = el.getAttribute("data-i18n");
-   if (dict[key] !== undefined) el.innerHTML = dict[key];
- });
- languageSelect.value = lang;
- try { localStorage.setItem("feSurvivorLanguage", lang); } catch (e) {}
-}
-languageSelect.addEventListener("change", event => setLanguage(event.target.value));
-let initialLanguage = "pt-BR";
-try { const saved = localStorage.getItem("feSurvivorLanguage"); if (saved && translations[saved]) initialLanguage = saved; } catch (e) {}
-setLanguage(initialLanguage);
-</script>
+
+    <script>
+        const translations = {
+            "pt-BR": {
+                main_title: "Termos de Serviço e Política de Privacidade",
+                updated: "Última atualização:",
+
+                // Termos de Serviço
+                tos_title: "Parte 1 — Termos de Serviço",
+                tos_s1_title: "1. Aceitação dos Termos",
+                tos_s1_text: 'Ao transferir, instalar ou utilizar o jogo <strong>Fé Survivor</strong> (doravante denominado "Aplicativo" ou "Jogo"), desenvolvido por <strong>Jean Moraes</strong> ("nós", "nosso"), concorda em cumprir e vincular-se aos presentes Termos de Serviço. Se não concordar com estes termos, não deverá utilizar o Aplicativo.',
+                tos_s2_title: "2. Licença de Uso",
+                tos_s2_text: "Concedemos-lhe uma licença limitada, pessoal, não exclusiva, intransferível e revogável para descarregar e utilizar o Aplicativo para fins de entretenimento pessoal e não comercial no seu dispositivo móvel compatível.",
+                tos_s3_title: "3. Propriedade Intelectual",
+                tos_s3_text: "Todos os direitos de propriedade intelectual relativos ao Jogo — incluindo códigos-fonte, gráficos em arte pixel (16-bit), design de interface, mecânicas de jogo, faixas de áudio, textos, marcas e elementos visuais — são de propriedade exclusiva de Jean Moraes ou devidamente licenciados. É expressamente proibida a cópia, modificação, distribuição, descompilação ou engenharia reversa do Aplicativo sem autorização prévia por escrito.",
+                tos_s4_title: "4. Conduta do Utilizador e Vantagens Indevidas",
+                tos_s4_text: "O utilizador compromete-se a utilizar o Jogo de forma justa e legítima. É proibida a utilização de batotas (cheats), modificações não autorizadas (MODs), ferramentas de automatização ou exploração de falhas (exploits) para alterar o progresso, moedas de jogo ou conquistas.",
+                tos_s5_title: "5. Publicidade e Recompensas",
+                tos_s5_text: "O Jogo pode integrar anúncios publicitários (ex.: Google AdMob ou Unity Ads), incluindo vídeos recompensados. Não nos responsabilizamos pelos conteúdos, produtos ou serviços promovidos por redes de anúncios de terceiros.",
+                tos_s6_title: "6. Isenção de Garantias e Limitação de Responsabilidade",
+                tos_s6_text: "O Aplicativo é fornecido \"como está\" e \"conforme disponível\", sem garantias de qualquer tipo. Não garantimos que o Jogo funcionará de forma ininterrupta ou livre de erros. Em nenhuma circunstância o programador será responsável por danos diretos, indiretos ou acidentais decorrentes do uso ou da impossibilidade de uso do Aplicativo.",
+
+                // Política de Privacidade
+                pp_title: "Parte 2 — Política de Privacidade",
+                pp_intro: 'Esta Política de Privacidade descreve como <strong>Jean Moraes</strong> ("nós", "nosso") coleta, usa e compartilha informações ao utilizar o aplicativo/jogo <strong>Fé Survivor</strong>.',
+                pp_consent: "Ao baixar, instalar ou utilizar este Aplicativo, você concorda com a coleta e o uso de informações de acordo com esta Política de Privacidade.",
+                pp_s1_title: "1. Coleta e Uso de Informações",
+                pp_s1a_title: "a) Dados Pessoais Coletados Diretamente",
+                pp_direct: 'O <strong>Fé Survivor</strong> foi desenvolvido para respeitar a privacidade dos seus usuários. Não solicitamos nem coletamos dados pessoais identificáveis (como nome real, endereço físico, número de telefone ou endereço de e-mail) para o funcionamento básico do jogo.',
+                pp_s1b_title: "b) Dados Coletados Automatizada e Tecnicamente",
+                pp_technical: "Para garantir o funcionamento adequado do jogo, a melhoria contínua da experiência do usuário e/ou a exibição de anúncios e métricas de desempenho, o Aplicativo pode utilizar serviços de terceiros que coletam informações técnicas do seu dispositivo, como:",
+                pp_data1: "Identificadores exclusivos de dispositivo (ex.: ID de publicidade do Google / AAID);",
+                pp_data2: "Endereço IP;",
+                pp_data3: "Dados do sistema operacional e modelo do dispositivo;",
+                pp_data4: "Dados de desempenho do jogo, registros de erros (<em>crash logs</em>) e dados estatísticos de uso.",
+                pp_s2_title: "2. Serviços de Terceiros e Provedores de Serviços",
+                pp_thirdParty: "Nosso Aplicativo pode integrar bibliotecas de ferramentas de terceiros (SDKs). Esses serviços podem coletar informações usadas para identificar o seu dispositivo de acordo com suas próprias políticas de privacidade.",
+                pp_services: "Serviços de terceiros que podem ser utilizados no Aplicativo incluem:",
+                pp_googlePlay: "Para suporte a recursos da plataforma e login/conquistas.",
+                pp_googlePrivacy: "Política de Privacidade do Google",
+                pp_ads: "Para exibição de anúncios no jogo.",
+                pp_googlePolicy: "Política do Google",
+                pp_unityPolicy: "Política da Unity",
+                pp_analytics: "Para análise anônima de estatísticas de uso e desempenho.",
+                pp_s3_title: "3. Compartilhamento de Dados",
+                pp_sharing: "Não vendemos, alugamos nem transferimos dados pessoais de usuários a terceiros. As informações técnicas coletadas automaticamente só são compartilhadas com os provedores de serviços descritos acima para fins estritos de funcionamento, veiculação de anúncios, prevenção de fraudes e análise de estatísticas do Aplicativo.",
+                pp_legal: "Também podemos divulgar informações se exigido por lei ou em resposta a solicitações legais válidas por autoridades públicas.",
+                pp_s4_title: "4. Privacidade de Crianças e Menores de Idade",
+                pp_children: "Nosso Aplicativo cumpre as exigências da política de dados do Google Play para famílias e crianças. Não solicitamos nem coletamos sabidamente dados pessoais de crianças. Se você é pai, mãe ou responsável legal e tomar conhecimento de que seu filho nos forneceu informações sem o seu consentimento, entre em contato conosco para que possamos adotar as medidas necessárias para remover tais informações.",
+                pp_s5_title: "5. Segurança das Informações",
+                pp_security: "A segurança dos seus dados é importante para nós. Empregamos medidas administrativas e técnicas padrão da indústria para proteger as informações processadas por nossos serviços contra acesso não autorizado, alteração, divulgação ou destruição.",
+                pp_s6_title: "6. Alterações a Estes Termos e Política",
+                pp_changes: "Podemos atualizar nossos Termos de Serviço e Política de Privacidade periodicamente. Aconselhamos que você revise esta página regularmente para verificar quaisquer alterações. As alterações entram em vigor no momento em que são publicadas nesta página.",
+
+                // Contato
+                contact_title: "Contato",
+                contact_intro: "Se você tiver dúvidas, sugestões ou solicitações referentes aos Termos de Serviço, à Política de Privacidade ou ao tratamento de dados no Aplicativo, entre em contato conosco:",
+                developer: "Desenvolvedor:",
+                support: "E-mail de Suporte:"
+            },
+            "en-US": {
+                main_title: "Terms of Service & Privacy Policy",
+                updated: "Last updated:",
+
+                // Terms of Service
+                tos_title: "Part 1 — Terms of Service",
+                tos_s1_title: "1. Acceptance of Terms",
+                tos_s1_text: 'By downloading, installing, or using the <strong>Fé Survivor</strong> game (the "App" or "Game"), developed by <strong>Jean Moraes</strong> ("we," "us," or "our"), you agree to comply with and be bound by these Terms of Service. If you do not agree to these terms, you should not use the App.',
+                tos_s2_title: "2. License to Use",
+                tos_s2_text: "We grant you a limited, personal, non-exclusive, non-transferable, and revocable license to download and use the App for personal, non-commercial entertainment purposes on your compatible mobile device.",
+                tos_s3_title: "3. Intellectual Property",
+                tos_s3_text: "All intellectual property rights related to the Game — including source code, 16-bit pixel art graphics, user interface design, gameplay mechanics, audio tracks, text, trademarks, and visual assets — are owned exclusively by Jean Moraes or duly licensed. Copying, modifying, distributing, decompiling, or reverse engineering the App without prior written consent is strictly prohibited.",
+                tos_s4_title: "4. User Conduct & Unfair Advantage",
+                tos_s4_text: "You agree to use the Game fairly and legitimately. The use of cheats, unauthorized modifications (MODs), automation tools, or exploits to alter game progress, currencies, or achievements is strictly prohibited.",
+                tos_s5_title: "5. Advertising & Rewards",
+                tos_s5_text: "The Game may display advertisements (e.g., Google AdMob or Unity Ads), including rewarded video ads. We are not responsible for the content, products, or services promoted by third-party ad networks.",
+                tos_s6_title: "6. Disclaimer of Warranties & Limitation of Liability",
+                tos_s6_text: 'The App is provided "as is" and "as available" without warranties of any kind. We do not guarantee that the Game will be uninterrupted or error-free. Under no circumstances shall the developer be liable for any direct, indirect, or incidental damages arising out of the use or inability to use the App.',
+
+                // Privacy Policy
+                pp_title: "Part 2 — Privacy Policy",
+                pp_intro: 'This Privacy Policy explains how <strong>Jean Moraes</strong> ("we," "us," or "our") collects, uses, and shares information when you use the <strong>Fé Survivor</strong> app/game.',
+                pp_consent: "By downloading, installing, or using the App, you agree to the collection and use of information in accordance with this Privacy Policy.",
+                pp_s1_title: "1. Information Collection and Use",
+                pp_s1a_title: "a) Personal Information You Provide Directly",
+                pp_direct: '<strong>Fé Survivor</strong> was developed with respect for users’ privacy. We do not request or collect personally identifiable information (such as your real name, physical address, phone number, or email address) for the game’s basic functionality.',
+                pp_s1b_title: "b) Automatically and Technically Collected Data",
+                pp_technical: "To ensure the game works properly, continuously improve the user experience, and/or display ads and measure performance, the App may use third-party services that collect technical information about your device, such as:",
+                pp_data1: "Unique device identifiers (e.g., Google Advertising ID / AAID);",
+                pp_data2: "IP address;",
+                pp_data3: "Operating system and device model information;",
+                pp_data4: "Game performance data, error reports (<em>crash logs</em>), and usage statistics.",
+                pp_s2_title: "2. Third-Party Services and Service Providers",
+                pp_thirdParty: "Our App may integrate third-party software development kits (SDKs). These services may collect information used to identify your device in accordance with their own privacy policies.",
+                pp_services: "Third-party services that may be used in the App include:",
+                pp_googlePlay: "To support platform features, sign-in, and achievements.",
+                pp_googlePrivacy: "Google Privacy Policy",
+                pp_ads: "To display ads in the game.",
+                pp_googlePolicy: "Google Privacy Policy",
+                pp_unityPolicy: "Unity Privacy Policy",
+                pp_analytics: "To analyze usage and performance statistics.",
+                pp_s3_title: "3. Data Sharing",
+                pp_sharing: "We do not sell, rent, or transfer users’ personal data to third parties. Automatically collected technical information is shared only with the service providers described above, and only as needed to operate the App, serve ads, prevent fraud, and analyze App usage statistics.",
+                pp_legal: "We may also disclose information when required by law or in response to valid legal requests from public authorities.",
+                pp_s4_title: "4. Children’s Privacy",
+                pp_children: "Our App follows Google Play’s applicable data policies for families and children. We do not knowingly request or collect children’s personal information. If you are a parent or legal guardian and become aware that your child has provided us with information without your consent, please contact us so we can take appropriate steps to remove that information.",
+                pp_s5_title: "5. Information Security",
+                pp_security: "Protecting your data is important to us. We use industry-standard administrative and technical safeguards to protect information processed by our services against unauthorized access, alteration, disclosure, or destruction.",
+                pp_s6_title: "6. Changes to These Terms and Policy",
+                pp_changes: "We may update our Terms of Service and Privacy Policy from time to time. We encourage you to review this page periodically for changes. Updates take effect when they are published on this page.",
+
+                // Contact
+                contact_title: "Contact Us",
+                contact_intro: "If you have questions, suggestions, or requests regarding these Terms of Service, Privacy Policy, or data practices, please contact us:",
+                developer: "Developer:",
+                support: "Support Email:"
+            }
+        };
+
+        const languageSelect = document.getElementById("languageSelect");
+
+        function setLanguage(lang) {
+            const dict = translations[lang] || translations["pt-BR"];
+            document.documentElement.lang = lang;
+            document.title = lang === "en-US"
+                ? "Terms of Service & Privacy Policy - Fé Survivor"
+                : "Termos de Serviço e Política de Privacidade - Fé Survivor";
+
+            document.querySelectorAll("[data-i18n]").forEach(el => {
+                const key = el.getAttribute("data-i18n");
+                if (dict[key] !== undefined) {
+                    el.innerHTML = dict[key];
+                }
+            });
+
+            languageSelect.value = lang;
+            try {
+                localStorage.setItem("feSurvivorTermsLanguage", lang);
+            } catch (e) { }
+        }
+
+        languageSelect.addEventListener("change", event => setLanguage(event.target.value));
+
+        let initialLanguage = "pt-BR";
+        try {
+            const saved = localStorage.getItem("feSurvivorTermsLanguage");
+            if (saved && translations[saved]) initialLanguage = saved;
+        } catch (e) { }
+
+        setLanguage(initialLanguage);
+    </script>
 </body>
+
 </html>
